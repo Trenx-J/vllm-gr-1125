@@ -53,6 +53,7 @@ gr_checkout=$PWD
 git clone https://github.com/xLLM-AI/xllm-ops.git
 
 # Prepare the xllm-ops build
+git checkout 3271763
 cd xllm-ops
 git submodule init
 git submodule update
